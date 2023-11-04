@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* this is the outer container of the form  */
+.container{
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(208, 196, 181);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* in this all the form input and data are */
+.form-container{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -4px 4px 4px 3px bisque;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    text-align: center;
+    
+}
+/*button outer look  */
+.button{
+    margin-top: 100px;
+    width:auto;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+     justify-content: space-around; 
+}
+ /* sing in styling*/ 
+.sign-in{
+    width: 240px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    padding-top: 22px;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+/*  sign-up button styling*/
+.sign-up{
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    width: 240px;
+    background-color: rgb(175, 137, 137);
+   padding: 10px 10px;
+   text-align: center;
+   align-items: center;
+   padding-top: 22px;
+   color: white;
+   cursor: pointer;
+
+}
+/* we handle the form input dimension and border */
+.form-container input{
+    margin-top: 20px;
+    height: 50px;
+    outline: none;
+    border: none;
+   
+    font-size: 16px;
+    
+}
+.form-container input:focus{
+    border-bottom: 2px solid rgb(112, 100, 100);
+    
+}
+.form-container h3 {
+   margin-top: 20px;
+   /* Additional margin for spacing */
+   font-size: 18px;
+   color: rgb(163, 138, 142);
+  }
+  
+
+
